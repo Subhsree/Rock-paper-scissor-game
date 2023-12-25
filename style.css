@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --font-style: 'Permanent Marker', cursive;
+    --gradient:linear-gradient(to right,#03071E,#370617,#6a040f,#9d0208,#d00000,#dc2f02,#e85d04,#f48c06,#faa307,#ffba08);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1
+{
+    background:var(--gradient);
+    font-size: 54px;
+    font-family: var(--font-style);
+    color: transparent;
+    background-clip: text;
+}
+.choices
+{
+    width: 60vw;
+    height:50vh;
+    display: flex;
+    flex-direction: row;
+    gap:5vmin;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    cursor: pointer;
+}
+.choice img{
+    width:16vw;
+    height:37vh;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    object-fit:scale-down;
+}
+.score
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20vw;
+    text-align: center;
+}
+.score p 
+{
+    font-size: 30px;
+    font-family: var(--font-style);
+}
+.msg-container
+{
+    font-size: 30px;
+    font-family: var(--font-style);
+    background:linear-gradient(to right,#ff4800,#ff5400,#ff6000,#ff6d00,#ff7900,#ff8500,#ff9100,#ffaa00,#ffb600);
+    text-align: center;
+    padding:2vmin 4vmin;
+    border-radius: 2vmin;
+}
