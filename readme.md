@@ -18,8 +18,7 @@ welcome to classic ROCK PAPER SCISSOR game build with HTML , CSS and JAVASCRIPT 
 
 ## Links
 
-- [solution URL]()
-- [live site URL]()
+- [live site URL](https://subhsree.github.io/Rock-paper-scissor-game/)
 
 ## Bulid with
 
