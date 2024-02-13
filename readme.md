@@ -11,7 +11,7 @@ welcome to classic ROCK PAPER SCISSOR game build with HTML , CSS and JAVASCRIPT 
 
 ### how to play 
 
-1) Open the (https://subhsree.github.io/Rock-paper-scissor-game/)live demo in your web browser.
+1) Open the (https://subhsree.github.io/Rock-paper-scissor-game/) demo in your web browser.
 2) Select your choice (rock, paper, or scissors) by clicking the corresponding button.
 3) Watch the computer's choice and see who wins the round.
 4) Repeat and strive for victory!
