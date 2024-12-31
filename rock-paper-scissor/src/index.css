@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.outerdiv
+{
+    background: radial-gradient(circle at top,hsl(214, 47%, 23%) , hsl(237, 49%, 15%));
+}
+.papergradient
+{
+    background: linear-gradient( hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+}
+.scissorgradient
+{
+    background:linear-gradient(hsl(40, 84%, 53%),hsl(39, 89%, 49%) );
+}
+.rockgradient
+{
+    background:linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+    box-shadow: inset inset 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-inline-end-style: solid;
+    border-inline-end-color: black;
+}
+.trianglebackground
+{
+    background-image: url("./assets/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
