@@ -13,7 +13,7 @@ function App() {
             <p className="text-dark-text text-5xl font-bold">12</p>
           </div>
         </div>
-        <div className="h-[50%] w-[35%] m-auto trianglebackground mt-20">
+        <div className="sm:h-[50%] sm:w-[35%] m-auto trianglebackground mt-20 ">
             <div className="flex justify-between">
               <Circle path="icon-paper.svg" gradient="papergradient"/>
               <Circle path="icon-scissors.svg" gradient="scissorgradient"/>
